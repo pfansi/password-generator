@@ -27,6 +27,8 @@ I created a git repository folder that will host the finish website. The Reposit
 
 - breaked down the app functionality using pseu code language.
 
+- created and index.html, a css file, a javascript file and an imge folder
+
 ## Screenshots
 
 . ![screenshot](.\assets\images\finished_website.jpg)
