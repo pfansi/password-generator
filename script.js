@@ -13,6 +13,10 @@ var confirmUpperChar;
 var confirmNumberChar;
 var confirmSpecialChar;
 
+// variable that will collect all the input in to a new variable 
+
+var confirmInput;
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -46,7 +50,19 @@ function generatePassword () {
         confirmSpecialChar = confirm ("Would like to include Special characters?");
     };
 
-    
+    if (!confirmLowerChar && !confirmNumberChar && !confirmSpecialChar && !confirmUpperChar) {
+        // if none of the characters have been choosen then alert this 
+
+        confirmInput = alert ("You must choose at least one character set for your password");
+    }
+     
+    // if a character choice is true , it will be concatenated into the new string confirminput
+    if (confirmLowerChar) confirmInput = confirmInput.concat(lowercaseChar)
+    if (confirmUpperChar) confirmInput = confirmInput.concat(uppercaseChar)
+    if (confirmNumberChar) confirmInput = confirmInput.concat(numberChar)
+    if (confirmSpecialChar) confirmInput = confirmInput.concat(numberChar)
+
+
 
 
 }

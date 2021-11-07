@@ -30,6 +30,14 @@ I created a git repository folder that will host the finish website. The Reposit
 
 * commented the code in index and css file .
 
+* Declared and assign correspnding charactyer to the variable that will compose the password
+
+* Declared the variable that will holf the visitor input .
+
+* declared teh funtion that will write the password on the page after the click
+
+* declared the function that will generate the passord after confirm that the visitor has enter all the right input .
+
 ## Screenshots
 
 . ![screenshot](.\assets\images\finished_website.jpg)
