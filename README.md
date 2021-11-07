@@ -38,6 +38,8 @@ I created a git repository folder that will host the finish website. The Reposit
 
 * declared the function that will generate the passord after confirm that the visitor has enter all the right input .
 
+* declared a for loop that will pick ramdom character and populate the password array
+
 ## Screenshots
 
 . ![screenshot](.\assets\images\finished_website.jpg)

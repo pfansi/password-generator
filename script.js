@@ -62,6 +62,18 @@ function generatePassword () {
     if (confirmNumberChar) confirmInput = confirmInput.concat(numberChar)
     if (confirmSpecialChar) confirmInput = confirmInput.concat(numberChar)
 
+    // declared the variable that will hold the return password characters in an array
+    passwordArray = [];
+
+    // this will loop ramdomly into the concatenated confirmInput array and 
+    //pick charactyer that will fill the new passwordArray based on the character index in confirmInput
+    for (var i=0; i < passLimit; i++) {
+        var charIndex = confirmInput[Math.floor(Math.random() * confirmInput.lenght)];
+        passwordArray.push(charIndex);
+    }
+    
+
+
 
 
 
