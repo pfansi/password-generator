@@ -7,15 +7,14 @@ I will build a responsive password generator web application that will generate 
 ## Pseudo code description
 
 - Click on the button generate prompt criteria.
-
-* prompt to choose password lenth.
-* check if password lenght is between 8 and 128 characters.
-* prompt to choose if to include lowercase characters.
-* prompt to choose if to include uppercase characters.
-* prompt to choose if to include numbers.
-* prompt to choose if to include special characters
-* check if there is at least oone character type choosen
-* display password
+- prompt to choose password lenth.
+- check if password lenght is between 8 and 128 characters.
+- prompt to choose if to include lowercase characters.
+- prompt to choose if to include uppercase characters.
+- prompt to choose if to include numbers.
+- prompt to choose if to include special characters
+- check if there is at least oone character type choosen
+- display password
 
 ## Git Repository
 
@@ -27,7 +26,9 @@ I created a git repository folder that will host the finish website. The Reposit
 
 - breaked down the app functionality using pseu code language.
 
-- created and index.html, a css file, a javascript file and an imge folder
+- created and index.html, a css file, a javascript file and an image folder.
+
+* commented the code in index and css file .
 
 ## Screenshots
 
