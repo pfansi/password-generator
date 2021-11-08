@@ -6,15 +6,23 @@ I will build a responsive password generator web application that will generate 
 
 ## Pseudo code description
 
-- Click on the button generate prompt criteria.
-- prompt to choose password lenth.
-- check if password lenght is between 8 and 128 characters.
-- prompt to choose if to include lowercase characters.
-- prompt to choose if to include uppercase characters.
-- prompt to choose if to include numbers.
-- prompt to choose if to include special characters
-- check if there is at least oone character type choosen
-- display password
+- Click on the button to generate prompt criteria.
+
+- Prompt to choose password length.
+
+- Check if password length is between 8 and 128 characters.
+
+- Prompt to choose if to include lowercase characters.
+
+- Prompt to choose if to include uppercase characters.
+
+- Prompt to choose if to include numbers.
+
+- Prompt to choose if to include special characters.
+
+- Check if there is at least one character type chosen.
+
+- Display password.
 
 ## Git Repository
 
@@ -22,41 +30,43 @@ I created a git repository folder that will host the finish website. The Reposit
 
 ## What have you done
 
-- Created a readme.md file to describe the different building phase of the application.
+- Created a readme.md file to describe the different building phases of the application.
 
 - breaked down the app functionality using pseudo code language.
 
-- created and index.html, a css file, a javascript file and an image folder.
+- created an index.html, a css file, a javascript file and an image folder.
 
-* commented the code in index and css file .
+- commented the code in index and css file .
 
-* Declared and assign correspnding charactyer to the variable that will compose the password
+- Declared and assign corresponding character to the variable that will compose the password
 
-* Declared the variable that will holf the visitor input .
+- Declare the variable that will hold the visitor input .
 
-* declared teh funtion that will write the password on the page after the click
+- declared the function that will write the password on the page after the click
 
-* declared the function that will generate the passord after confirm that the visitor has enter all the right input .
+- declare the function that will generate the password after confirming that the visitor has enter all the right input .
 
-* declared a for loop that will pick ramdom character and populate the password array
+- declared a for loop that will pick random character and populate the password array
 
-* used the join method to convert it to a string
+- used the join method to convert it to a string
 
-* I then called the function that will write the password in the text area.
+- I then called the function that will write the password in the text area.
 
 ## Screenshots
 
 - the user is asked to enter a number. ![screenshot](./images/check_the_input_number.jpg)
 
-* The user is asked to include lowercase characters. ![screenshot](./images/ask_for_lower_case.jpg)
+- The user is asked to include lowercase characters. ![screenshot](./images/ask_for_lower_case.jpg)
 
-- The user is asked to include uppercase characters. ![screenshot](./images/include_uppercase.jpg)
+* The user is asked to include uppercase characters. ![screenshot](./images/include_uppercase.jpg)
 
-* The user is asked to include special characters. ![screenshot](./images/include_special_characters.jpg)
+- The user is asked to include special characters. ![screenshot](./images/include_special_characters.jpg)
 
-* The password is then generated. ![screenshot](./images/generated_password.jpg)
+- The password is then generated. ![screenshot](./images/generated_password.jpg)
 
 ## Link to the deploy application
+
+https://pfansi.github.io/password-generator/
 
 ## link to the git hub repository
 
