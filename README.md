@@ -54,15 +54,15 @@ I created a git repository folder that will host the finish website. The Reposit
 
 ## Screenshots
 
-- the user is asked to enter a number. ![screenshot](./images/check_the_input_number.jpg)
+- the user is asked to enter a number. ![screenshot](./images/check_the_input_number.JPG)
 
-- The user is asked to include lowercase characters. ![screenshot](./images/ask_for_lower_case.jpg)
+- The user is asked to include lowercase characters. ![screenshot](./images/ask_for_lower_case.JPG)
 
-* The user is asked to include uppercase characters. ![screenshot](./images/include_uppercase.jpg)
+* The user is asked to include uppercase characters. ![screenshot](./images/include_uppercase.JPG)
 
-- The user is asked to include special characters. ![screenshot](./images/include_special_characters.jpg)
+- The user is asked to include special characters. ![screenshot](./images/include_special_characters.JPG)
 
-- The password is then generated. ![screenshot](./images/generated_password.jpg)
+- The password is then generated. ![screenshot](./images/generated_password.JPG)
 
 ## Link to the deploy application
 
